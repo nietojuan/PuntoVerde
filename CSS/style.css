@@ -1,0 +1,95 @@
+* {
+  margin: 0.5rem;
+  padding: 0;
+}
+
+html {
+  font-size: 1 rem;
+  height: 100px;
+}
+
+body,
+header,
+menu,
+footer {
+  border: 3px red solid;
+  min-width: 400px;
+  min-height: 50px;
+}
+
+header {
+  background-color: rgb(218, 192, 243);
+  margin-top: 10px;
+  border-style: double;
+  border-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+menu {
+  min-height: 200px;
+  background-color: bisque;
+  border-style: double;
+  border-color: brown;
+}
+
+aside {
+  background-color: blueviolet;
+  border-style: double;
+  border-color: black;
+}
+
+footer {
+  background-color: rgb(143, 182, 143);
+  border-style: double;
+  border-color: blue;
+}
+
+.redes {
+  text-align: center;
+}
+.derechos {
+  text-align: right;
+}
+
+body {
+  /*background-image: url(https://previews.123rf.com/images/vitalily73/vitalily731706/vitalily73170600006/80059796-vegetales-frescos-fondo-colorido-de-los-veh%C3%ADculos-vegetales-saludables-surtido-de-verduras.jpg);*/
+  background-color: beige;
+  opacity: 75%;
+}
+
+.imagen {
+  border-radius: 20px;
+  border-color: black;
+  border-style: solid;
+}
+
+/* header */
+.headerNav {
+  color: black;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb(112, 165, 179);
+  /*text-align: right;*/
+  display: inline-block;
+  margin-bottom: 65px;
+  position: absolute;
+}
+.enlaces {
+  background-color: rgb(176, 209, 56);
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: blue;
+}
+.imgLogo {
+  max-height: 65px;
+  margin-top: 1.5rem;
+}
+
+.headerLogo {
+  max-height: 0.5;
+  display: inline-block;
+}

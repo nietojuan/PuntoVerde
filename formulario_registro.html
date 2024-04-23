@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrarse</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/3fccab976f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="a" href="indexhtml.html">Home</a>
+        <a class="a" href="about.html">Quienes somos</a>
+        <a class="a" href="contact.html">Contactanos</a>
+        <a class="a" href="sucursales.html">Sucursales</a>
+        <a class="a" href="formulario_registro.html">Registrarse</a>
+      </nav>
+      <h1>
+        <b><u>Comida Saludable</u></b>
+      </h1>
+      <h2>Formulario de Registro</h2>
+    </header>
+    <form action="show_data.html" target="_blank">
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <div>
+          <u>
+            <b> <label for="firtsname">Nombre:</label></b></u
+          >
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Ingrese su nombre aqui..."
+            required
+          />
+        </div>
+        <div>
+          <u>
+            <b> <label for="lastname">Apellido:</label></b></u
+          >
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Ingrese su apellido aqui..."
+            required
+          />
+        </div>
+        <div>
+          <u>
+            <b> <label for="adress">Dirección:</label></b></u
+          >
+          <input
+            type="text"
+            name="adress"
+            id="adress"
+            placeholder="Ingrese su domicilio aqui..."
+            required
+          />
+        </div>
+        <div>
+          <u>
+            <b> <label for="location">Provincia:</label></b></u
+          >
+          <select name="location" id="location" required>
+            <option value=""></option>
+            <option value="1">Mendoza</option>
+            <option value="2">Cordoba</option>
+            <option value="3">Buenos Aires</option>
+          </select>
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Ingrese su provincia aqui..."
+            required
+          />
+        </div>
+        <div>
+          <u>
+            <b> <label for="numberCP">Codigo Postal:</label></b></u
+          >
+          <input
+            type="number"
+            name="numberCP "
+            id="numberCP"
+            placeholder="Ingrese su codigo postal aqui..."
+          />
+        </div>
+        <div>
+          <u>
+            <b> <label for="birthday">Fecha de Nacimiento:</label></b></u
+          >
+          <input
+            type="date"
+            name="birthday"
+            id="birthday"
+            placeholder="Ingrese su fecha de nacimiento aqui..."
+            required
+          />
+        </div>
+        <div>
+          <u>
+            <b> <label for="fone">Telefono:</label></b></u
+          >
+          <input
+            type="number"
+            name="fone"
+            id="fone"
+            placeholder="Ingrese telefono de contacto..."
+          />
+        </div>
+        <div>
+          <u>
+            <b> <label for="email">Correo electronico:</label></b></u
+          >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ingrese su email..."
+            required
+          />
+        </div>
+        <div>
+          <u> <b>Genero:</b></u>
+          <b>Hombre<input type="radio" name="Genero" value="Hombre" /></b>
+          <b>Mujer<input type="radio" name="Genero" value="Mujer" /></b>
+          <b
+            >No Binario<input type="radio" name="Genero" value="No Binario"
+          /></b>
+        </div>
+        <div>
+          <u>
+            <b><label for="genero">Genero</label></b></u
+          >
+          <b
+            >Hombre<input type="radio" name="genero" id="genero" value="Hombre"
+          /></b>
+          <b
+            >Mujer<input type="radio" name="genero" id="genero" value="Mujer"
+          /></b>
+          <b
+            >No Binario<input
+              type="radio"
+              name="genero"
+              id="genero"
+              value="No Binario"
+          /></b>
+        </div>
+      </fieldset>
+      <br />
+      <div>
+        <u
+          ><b><label for="master">Conocimientos previos:</label></b></u
+        >
+        <b
+          >HTML<input type="checkbox" name="master" id="master" value="HTML"
+        /></b>
+        <b
+          >CSS<input type="checkbox" name="master" id="master" value="CSS"
+        /></b>
+        <b
+          >JavaScript<input
+            type="checkbox"
+            name="master"
+            id="master"
+            value="JavaScript"
+        /></b>
+        <b
+          >Bootstrap<input
+            type="checkbox"
+            name="master"
+            id="master"
+            value="Bootstrap"
+        /></b>
+        <b
+          >MySQL<input type="checkbox" name="master" id="master" value="MySQL"
+        /></b>
+        <b
+          >Python<input
+            type="checkbox"
+            name="master"
+            id="master"
+            value="Python"
+        /></b>
+        <b
+          >React<input type="checkbox" name="master" id="master" value="React"
+        /></b>
+      </div>
+      <br />
+      <div>
+        <u
+          ><b><label for="estudio">Nivel de Estudios</label></b></u
+        >
+        <select name="estudio" id="estudio" required>
+          <option value=""></option>
+          <option value="Primario">Primario</option>
+          <option value="Secundario">Secundario</option>
+          <option value="Terciario">Terciario</option>
+          <option value="Univercitario">Univercitario</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <u
+          ><b><label for="info">Consultas:</label></b></u
+        >
+        <textarea name="info" id="info" cols="30" rows="10"></textarea>
+      </div>
+      <br /><br /><br />
+      <button type="submit">Enviar</button>
+    </form>
+    <br />
+    <p>
+      Si ud. hace click en boton "Enviar", la información sera enviada a la
+      pagina "show_data.html
+    </p>
+    <br /><br /><br /><br /><br /><br />
+    <footer>
+      <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+        <i class="fa-brands fa-square-facebook"></i
+      ></a>
+      <a href="https://www.instagram.com/"
+        ><i class="fa-brands fa-square-instagram"></i
+      ></a>
+      <a href="https://twitter.com/TwitterLatAm"
+        ><i class="fa-brands fa-square-twitter"></i
+      ></a>
+      <a href="https://ar.linkedin.com/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://ar.pinterest.com/"
+        ><i class="fa-brands fa-square-pinterest"></i
+      ></a>
+      <br />
+      <p align="right">derechos recervados @nietojuan 2024</p>
+      <br />
+    </footer>
+  </body>
+</html>
