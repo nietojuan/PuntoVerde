@@ -39,6 +39,7 @@ aside {
   background-color: blueviolet;
   border-style: double;
   border-color: black;
+  max-height: 400px;
 }
 
 footer {
@@ -64,6 +65,8 @@ body {
   border-radius: 1.5rem;
   border-color: black;
   border-style: solid;
+  max-height: 400px;
+  max-width: 1.5 rem;
 }
 
 /* header */
