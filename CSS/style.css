@@ -61,7 +61,7 @@ body {
 }
 
 .imagen {
-  border-radius: 20px;
+  border-radius: 1.5rem;
   border-color: black;
   border-style: solid;
 }
