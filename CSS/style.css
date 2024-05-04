@@ -33,13 +33,22 @@ menu {
   background-color: bisque;
   border-style: double;
   border-color: brown;
+  overflow: auto;
 }
 
-aside {
+menu > div {
+  max-height: 50%;
+  float: left;
+  width: 50%;
+  float: left;
+}
+
+menu > aside {
   background-color: blueviolet;
   border-style: double;
   border-color: black;
-  max-height: 400px;
+  max-height: 15%;
+  float: left;
 }
 
 footer {
@@ -61,13 +70,24 @@ body {
   opacity: 75%;
 }
 
+.img {
+  max-height: 500px;
+  max-width: 1.5 rem;
+  flex: content;
+}
+
 .imagen {
   border-radius: 1.5rem;
   border-color: black;
   border-style: solid;
-  max-height: 400px;
-  max-width: 1.5 rem;
+  max-width: 600px;
 }
+
+/* .video {
+  display: flexbox;
+  max-height: 100px;
+  max-width: 1.5 rem;
+} */
 
 /* header */
 .headerNav {
@@ -95,4 +115,21 @@ body {
 .headerLogo {
   max-height: 0.5;
   display: inline-block;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crear 3 columnas de igual ancho */
+  grid-gap: 10px; /* Espacio entre elementos */
+}
+
+.grid-item {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgProductos {
+  max-height: 200px;
+  max-width: 1.5 rem;
+  flex: content;
 }
