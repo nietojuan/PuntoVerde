@@ -39,7 +39,7 @@ menu {
 menu > div {
   max-height: 50%;
   float: left;
-  width: 50%;
+  width: 65%;
   float: left;
 }
 
@@ -47,7 +47,7 @@ menu > aside {
   background-color: blueviolet;
   border-style: double;
   border-color: black;
-  max-height: 15%;
+  max-height: 25%;
   float: left;
 }
 
