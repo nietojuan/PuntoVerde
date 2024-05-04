@@ -25,7 +25,7 @@
       </h1>
       <h2>Formulario de Registro</h2>
     </header>
-    <form action="show_data.html" target="_blank">
+    <form action="showData.html" target="_blank">
       <fieldset>
         <legend>Datos Personales</legend>
         <div>
@@ -78,7 +78,7 @@
             type="text"
             name="location"
             id="location"
-            placeholder="Ingrese su provincia aqui..."
+            placeholder="Ingrese su localidad aqui..."
             required
           />
         </div>
@@ -128,14 +128,7 @@
             required
           />
         </div>
-        <div>
-          <u> <b>Genero:</b></u>
-          <b>Hombre<input type="radio" name="Genero" value="Hombre" /></b>
-          <b>Mujer<input type="radio" name="Genero" value="Mujer" /></b>
-          <b
-            >No Binario<input type="radio" name="Genero" value="No Binario"
-          /></b>
-        </div>
+
         <div>
           <u>
             <b><label for="genero">Genero</label></b></u
@@ -153,60 +146,43 @@
               id="genero"
               value="No Binario"
           /></b>
+          <div>
+            <u>
+              <b>Desea recibir info y promociones de nuestro productos:</b></u
+            >
+            <b>Si<input type="radio" name="info" value="Si" /></b>
+            <b>No<input type="radio" name="info" value="No" /></b>
+          </div>
         </div>
       </fieldset>
       <br />
       <div>
         <u
-          ><b><label for="master">Conocimientos previos:</label></b></u
+          ><b><label for="master">Que te gustaria probar:</label></b></u
         >
         <b
-          >HTML<input type="checkbox" name="master" id="master" value="HTML"
-        /></b>
-        <b
-          >CSS<input type="checkbox" name="master" id="master" value="CSS"
-        /></b>
-        <b
-          >JavaScript<input
+          >Tartas<input
             type="checkbox"
             name="master"
             id="master"
-            value="JavaScript"
+            value="Tartas"
         /></b>
         <b
-          >Bootstrap<input
+          >Crepas<input
             type="checkbox"
             name="master"
             id="master"
-            value="Bootstrap"
+            value="Crepas"
         /></b>
         <b
-          >MySQL<input type="checkbox" name="master" id="master" value="MySQL"
-        /></b>
-        <b
-          >Python<input
+          >Ensaladas<input
             type="checkbox"
             name="master"
             id="master"
-            value="Python"
-        /></b>
-        <b
-          >React<input type="checkbox" name="master" id="master" value="React"
+            value="Ensaladas"
         /></b>
       </div>
-      <br />
-      <div>
-        <u
-          ><b><label for="estudio">Nivel de Estudios</label></b></u
-        >
-        <select name="estudio" id="estudio" required>
-          <option value=""></option>
-          <option value="Primario">Primario</option>
-          <option value="Secundario">Secundario</option>
-          <option value="Terciario">Terciario</option>
-          <option value="Univercitario">Univercitario</option>
-        </select>
-      </div>
+
       <br />
       <div>
         <u
