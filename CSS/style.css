@@ -33,12 +33,22 @@ menu {
   background-color: bisque;
   border-style: double;
   border-color: brown;
+  overflow: auto;
 }
 
-aside {
+menu > div {
+  max-height: 50%;
+  float: left;
+  width: 65%;
+  float: left;
+}
+
+menu > aside {
   background-color: blueviolet;
   border-style: double;
   border-color: black;
+  max-height: 25%;
+  float: left;
 }
 
 footer {
@@ -55,15 +65,25 @@ footer {
 }
 
 body {
-  /*background-image: url(https://previews.123rf.com/images/vitalily73/vitalily731706/vitalily73170600006/80059796-vegetales-frescos-fondo-colorido-de-los-veh%C3%ADculos-vegetales-saludables-surtido-de-verduras.jpg);*/
   background-color: beige;
   opacity: 75%;
 }
 
+.img {
+  max-height: 500px;
+  max-width: 1.5 rem;
+  flex: content;
+}
+
 .imagen {
-  border-radius: 20px;
+  border-radius: 1.5rem;
   border-color: black;
   border-style: solid;
+  max-width: 600px;
+}
+
+video {
+  display: flexbox;
 }
 
 /* header */
@@ -92,4 +112,48 @@ body {
 .headerLogo {
   max-height: 0.5;
   display: inline-block;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crear 3 columnas de igual ancho */
+  grid-gap: 10px; /* Espacio entre elementos */
+}
+
+.grid-item {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgProductos {
+  max-height: 200px;
+  max-width: 1.5 rem;
+  flex: content;
+}
+/* Estilos para PC de escritorio */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para tablet */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Estilos para celular */
+@media only screen and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
 }
