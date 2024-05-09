@@ -24,11 +24,11 @@
         <a class="enlaces" href="about.html">Quienes somos</a>
         <a class="enlaces" href="sucursales.html">Contactanos</a>
         <a class="enlaces" href="products.html">Productos</a>
-        <a class="enlaces" href="formulario_registro.html">Registrarse</a>
+        <a class="enlaces" href="form.html">Registrarse</a>
       </nav>
 
       <h1>
-        <b><u>Comida Saludable</u></b>
+        <b><u>Punto Verde: "Comida Saludable"</u></b>
       </h1>
       <h2>Formulario de Registro</h2>
     </header>
@@ -41,8 +41,8 @@
           >
           <input
             type="text"
-            name="firstname"
-            id="firstname"
+            name="firtsname"
+            id="firtsname"
             placeholder="Ingrese su nombre aqui..."
             required
           />
@@ -76,15 +76,15 @@
             <b> <label for="location">Provincia:</label></b></u
           >
           <select name="location" id="location" required>
-            <option value=""></option>
+            <option value="">Selecciones una ciudad</option>
             <option value="1">Mendoza</option>
             <option value="2">Cordoba</option>
             <option value="3">Buenos Aires</option>
           </select>
           <input
             type="text"
-            name="location"
-            id="location"
+            name="localidad"
+            id="localidad"
             placeholder="Ingrese su localidad aqui..."
             required
           />
@@ -104,13 +104,7 @@
           <u>
             <b> <label for="birthday">Fecha de Nacimiento:</label></b></u
           >
-          <input
-            type="date"
-            name="birthday"
-            id="birthday"
-            placeholder="Ingrese su fecha de nacimiento aqui..."
-            required
-          />
+          <input type="date" name="birthday" id="birthday" required />
         </div>
         <div>
           <u>
@@ -137,57 +131,58 @@
         </div>
 
         <div>
-          <u>
-            <b><label for="genero">Genero</label></b></u
-          >
-          <b
-            >Hombre<input type="radio" name="genero" id="genero" value="Hombre"
-          /></b>
-          <b
-            >Mujer<input type="radio" name="genero" id="genero" value="Mujer"
-          /></b>
-          <b
-            >No Binario<input
-              type="radio"
-              name="genero"
-              id="genero"
-              value="No Binario"
-          /></b>
-          <div>
-            <u>
-              <b>Desea recibir info y promociones de nuestro productos:</b></u
-            >
-            <b>Si<input type="radio" name="info" value="Si" /></b>
-            <b>No<input type="radio" name="info" value="No" /></b>
-          </div>
+          <!-- Radio -->
+
+          <u><b>Género:</b></u>
+
+          <input type="radio" name="genero" value="Hombre" />Hombre
+
+          <input type="radio" name="genero" value="Mujer" />Mujer
+
+          <input type="radio" name="genero" value="No Binario" />No Binario
+        </div>
+        <div>
+          <u> <b>Desea recibir info y promociones de nuestro productos:</b></u>
+          <b>Si<input type="radio" name="info" value="Si" /></b>
+          <b>No<input type="radio" name="info" value="No" /></b>
         </div>
       </fieldset>
       <br />
+      <!-- checkbox y select -->
       <div>
-        <u
-          ><b><label for="master">Que te gustaria probar:</label></b></u
-        >
+        <u><b>Que te gustaria probar:</b></u>
+        <b>Tartas<input type="checkbox" name="master" value="Tartas" /></b>
+        <label for="tartas"></label>
+        <select name="tartas" id="tartas">
+          <option value=" ">Seleccione tarta</option>
+          <option value="acelga">Acelga</option>
+          <option value="acelgaCalabaza">Acelga y Calabaza</option>
+          <option value="mediterranea">Mediterranea</option>
+          <option value="mixVerduras">Mix de Verduras</option>
+          <option value="zapallitos">Zapallitos</option>
+          <option value="zuccini">Zuccini</option>
+        </select>
+
+        <b>Crepas<input type="checkbox" name="master" value="Crepas" /></b>
+        <label for="crepas"></label>
+        <select name="crepas" id="crepas">
+          <option value=" ">Seleccione crepas</option>
+          <option value="acelga">Acelga</option>
+          <option value="zanahoria">Zanahoria/option></option>
+        </select>
+
         <b
-          >Tartas<input
-            type="checkbox"
-            name="master"
-            id="master"
-            value="Tartas"
+          >Ensaladas<input type="checkbox" name="master" value="Ensaladas"
         /></b>
-        <b
-          >Crepas<input
-            type="checkbox"
-            name="master"
-            id="master"
-            value="Crepas"
-        /></b>
-        <b
-          >Ensaladas<input
-            type="checkbox"
-            name="master"
-            id="master"
-            value="Ensaladas"
-        /></b>
+        <label for="ensalada"></label>
+        <select name="ensalada" id="ensalada">
+          <option value=" ">Seleccione tarta</option>
+          <option value="sieteColoresC">Siete colores con choclo</option>
+          <option value="sieteColoresR">Siete colores con rabanitos</option>
+          <option value="mixta">Mixta</option>
+          <option value="proteica">Proteica</option>
+          <option value="quinoa">Quinoa</option>
+        </select>
       </div>
 
       <br />

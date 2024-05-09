@@ -10,7 +10,7 @@ html {
 
 body,
 header,
-menu,
+main,
 footer {
   border: 3px red solid;
   min-width: 400px;
@@ -28,7 +28,7 @@ h1 {
   text-align: center;
 }
 
-menu {
+main {
   min-height: 200px;
   background-color: bisque;
   border-style: double;
@@ -36,14 +36,14 @@ menu {
   overflow: auto;
 }
 
-menu > div {
+main > div {
   max-height: 50%;
   float: left;
   width: 65%;
   float: left;
 }
 
-menu > aside {
+main > aside {
   background-color: blueviolet;
   border-style: double;
   border-color: black;
