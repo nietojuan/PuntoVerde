@@ -85,6 +85,9 @@ body {
 video {
   display: flexbox;
 }
+/* frame {
+  display: flexbox;
+} */
 
 /* header */
 .headerNav {
