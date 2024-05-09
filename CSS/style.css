@@ -12,7 +12,7 @@ body,
 header,
 main,
 footer {
-  border: 3px red solid;
+  /* border: 3px red solid; */
   min-width: 400px;
   min-height: 50px;
 }
@@ -20,8 +20,8 @@ footer {
 header {
   background-color: rgb(218, 192, 243);
   margin-top: 10px;
-  border-style: double;
-  border-color: black;
+  /* border-style: double; */
+  /* border-color: black; */
 }
 
 h1 {
@@ -31,8 +31,8 @@ h1 {
 main {
   min-height: 200px;
   background-color: bisque;
-  border-style: double;
-  border-color: brown;
+  /* border-style: double; */
+  /* border-color: brown; */
   overflow: auto;
 }
 
@@ -45,16 +45,16 @@ main > div {
 
 main > aside {
   background-color: blueviolet;
-  border-style: double;
-  border-color: black;
+  /* border-style: double; */
+  /* border-color: black; */
   max-height: 25%;
   float: left;
 }
 
 footer {
   background-color: rgb(143, 182, 143);
-  border-style: double;
-  border-color: blue;
+  /* border-style: double; */
+  /* border-color: blue; */
 }
 
 .redes {
@@ -77,8 +77,8 @@ body {
 
 .imagen {
   border-radius: 1.5rem;
-  border-color: black;
-  border-style: solid;
+  /* border-color: black; */
+  /* border-style: solid; */
   max-width: 600px;
 }
 
@@ -92,8 +92,8 @@ video {
 /* header */
 .headerNav {
   color: black;
-  border-style: solid;
-  border-radius: 5px;
+  /* border-style: solid;
+  border-radius: 5px; */
   background-color: rgb(112, 165, 179);
   /*text-align: right;*/
   display: inline-block;
@@ -103,7 +103,7 @@ video {
 .enlaces {
   background-color: rgb(176, 209, 56);
   padding: 5px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   text-decoration: none;
   color: blue;
 }
@@ -123,7 +123,8 @@ video {
 }
 
 .grid-item {
-  background-color: #ddd;
+  /* background-color: #04a038; */
+  background-color: green;
   padding: 20px;
   text-align: center;
 }
