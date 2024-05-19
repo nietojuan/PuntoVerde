@@ -28,10 +28,15 @@ h1 {
 }
 
 .headerLogo {
-  max-height: 0.5;
+  max-height: 0.5%;
   align-self: center;
+  transition: width 2s, height 2s, transform 2s;
 }
 
+/*transition  */
+.headerLogo:hover {
+  transform: rotate(360deg);
+}
 .imgLogo {
   max-height: 150px;
 }
