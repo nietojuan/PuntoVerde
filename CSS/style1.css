@@ -1,0 +1,169 @@
+* {
+  margin: 0.5rem;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+html {
+  font-size: 1 rem;
+  height: 100px;
+}
+
+body,
+header,
+footer {
+  border: 3px white solid;
+  min-width: 400px;
+  min-height: 50px;
+  background-color: rgb(159, 235, 159);
+}
+
+/* header */
+header {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+}
+
+.headerLogo {
+  max-height: 0.5;
+  align-self: center;
+}
+
+.imgLogo {
+  max-height: 150px;
+}
+
+.enlaces {
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: black;
+}
+.enlaces:hover {
+  color: gray;
+  background-color: white;
+}
+
+/* main */
+
+main {
+  border: 3px white solid;
+  min-width: 400px;
+  min-height: 50px;
+  background-color: white;
+  margin-top: auto;
+}
+
+.img {
+  max-height: 500px;
+  max-width: 100%;
+  flex: content;
+  height: auto;
+}
+
+.container {
+  display: flex;
+}
+.frame {
+  max-width: 100%;
+  flex: content;
+}
+/*footer*/
+
+.redes {
+  text-align: center;
+}
+
+.logo:hover {
+  color: gray;
+  background-color: white;
+}
+
+.derechos {
+  text-align: right;
+}
+
+/* formulario */
+
+.formulario {
+  width: 50%;
+  padding-bottom: 3px;
+  background-color: rgb(159, 235, 159);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input,
+select {
+  font-size: 16px;
+}
+
+textarea {
+  padding: 50px 100px;
+  font-size: 16px;
+}
+
+.boton {
+  padding: 10px 30px;
+  font-size: 16px;
+  margin-left: 78.5%;
+}
+
+/* productos */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Crear 3 columnas de igual ancho */
+  grid-gap: 1px; /* Espacio entre elementos  */
+}
+
+.grid-item {
+  background-color: green;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgProductos {
+  max-height: 200px;
+  max-width: 100%;
+  flex: content;
+}
+/* Estilos para PC de escritorio */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+/* Estilos para tablet */
+/* @media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+} */
+
+/* Estilos para celular */
+/* @media only screen and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  } */
+/* } */
+/* 
+iframe {
+  border: 1px solid #ccc; /* Set the border style */
+/* }  */
+/* 
+@media only screen and (max-width: 480px) {
+  .headerNav {
+    flex-direction: column;
+  }
+} */
