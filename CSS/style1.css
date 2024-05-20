@@ -36,7 +36,6 @@ h1 {
 /*transition  */
 .headerLogo:hover {
   transform: rotate(360deg);
-  max-height: ;
 }
 .imgLogo {
   max-height: 150px;
@@ -95,7 +94,7 @@ main {
 /* formulario */
 
 .formulario {
-  width: 50%;
+  width: 100%;
   padding-bottom: 3px;
   background-color: rgb(159, 235, 159);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -107,14 +106,14 @@ select {
 }
 
 textarea {
-  padding: 50px 100px;
+  padding: 50px 50px;
   font-size: 16px;
 }
 
 .boton {
   padding: 10px 30px;
   font-size: 16px;
-  margin-left: 78.5%;
+ 
 }
 
 /* productos */
@@ -136,40 +135,27 @@ textarea {
   max-width: 100%;
   flex: content;
 }
-/* Estilos para PC de escritorio */
-/* body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-}
+/* Estilos Medias Queries */
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-} */
-
-/* Estilos para tablet */
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .container {
-    max-width: 768px;
-  }
-} */
-
-/* Estilos para celular */
-/* @media only screen and (max-width: 480px) {
-  .container {
-    max-width: 480px;
-  } */
-/* } */
-/* 
-iframe {
-  border: 1px solid #ccc; /* Set the border style */
-/* }  */
-/* 
-@media only screen and (max-width: 480px) {
-  .headerNav {
+    display: flex;
     flex-direction: column;
   }
-} */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
